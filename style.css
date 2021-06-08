@@ -1,0 +1,58 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+#corpoDoJogo {
+    width: 160px;
+    height: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.posicaoJogo {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+#posicao1 {
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+#posicao2 {
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+#posicao3 {
+    border-bottom: 1px solid #000;
+}
+
+#posicao4 {
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+#posicao5 {
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+#posicao6 {
+    border-bottom: 1px solid #000;
+}
+
+#posicao7 {
+    border-right: 1px solid #000;
+}
+
+#posicao8 {
+    border-right: 1px solid #000;
+}
